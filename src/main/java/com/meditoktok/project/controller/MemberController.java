@@ -84,7 +84,7 @@ public class MemberController {
         return "아이디 없음";
     }
 
-//    @GetMapping("findinfo") //ㅠㅠ
+//    @GetMapping("findinfo") //ㅠㅠㅠ
 //    @ResponseBody
 //    public Optional<Member> findinfo(
 //            @RequestParam("id") String id
