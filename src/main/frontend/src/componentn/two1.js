@@ -46,8 +46,8 @@ function Two1() {
                                 <td height="20%">
                                     <table>
                                         <div class="hospital-list">
-                                            <div class="hs">병원목록</div>
-                                            <div><a href="#">가나다순/거리순</a></div>
+                                            <div class="hs" style={{ marginLeft: "25px" }}>병원목록</div>
+                                            <div style={{ marginLeft: "170px" }}><a href="#">가나다순/거리순</a></div>
                                         </div>
                                     </table>
                                 </td>

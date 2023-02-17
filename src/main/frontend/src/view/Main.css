@@ -156,7 +156,7 @@ aside span{
 
 .hospital-list{
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     margin-top:3%;
     margin-bottom:3%;
 }

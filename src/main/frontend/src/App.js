@@ -9,7 +9,7 @@ function App() { // react hook 컴포넌트 ( 함수형 컴포넌트 선언)
 
 
     return (
-        <Page4/>
+        <Page1/>
     ) 
 }
 export default App;
