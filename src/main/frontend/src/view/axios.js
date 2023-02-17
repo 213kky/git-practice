@@ -7,12 +7,12 @@ function Axios(props) { // react hook 컴포넌트 ( 함수형 컴포넌트 선�
 
     useEffect(() => { 
         (async () => { 
-            let result = await axios.get("/api/list"); 
+            let result = await axios.get("/list");
             setData(result?.data) 
-            
+            console.log(data)
         })();
     }, [])
-    console.log(data)
+
 
     return (<div>백엔드 데이터 : {data[0].id}</div>) // 화면출력
 }

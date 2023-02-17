@@ -241,18 +241,18 @@
 // export default App;
 
 
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-import Axios from './view/axios';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+// import { useState, useEffect } from 'react';
+// import axios from 'axios';
+// import Axios from './view/axios';
+// import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-function App1() { // react hook 컴포넌트 ( 함수형 컴포넌트 선언)
+// function App1() { // react hook 컴포넌트 ( 함수형 컴포넌트 선언)
 
 
 
-    return (
-       <div>asd</div>
+//     return (
+//        <div>asd</div>
 
-    ) 
-}
-export default App1;
+//     ) 
+// }
+// export default App1;

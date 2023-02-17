@@ -172,9 +172,6 @@ aside span{
 
 .hospital-list div a{
     display:flex;
-    /*//height: 50px;
-    //align-items: center;
-    //justify-content : center;*/
     border: 2px solid;
 }
 
