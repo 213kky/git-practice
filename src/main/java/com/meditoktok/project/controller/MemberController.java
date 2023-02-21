@@ -43,7 +43,7 @@ public class MemberController {
         memberService.join(member); //저장
     }
 
-    @GetMapping("/list") //전체 가입자 정보 반환
+    @GetMapping("/api/list") //전체 가입자 정보 반환
     @ResponseBody
     public List<Member> list() {
         List<Member> members = memberService.findMembers();

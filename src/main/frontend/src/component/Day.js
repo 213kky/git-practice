@@ -4,28 +4,25 @@ import Word from "./Word";
 
 
 export default function Day() {
-
     const a = useParams();
     const day = a.day;
-    const wordlist = dummy.words.filter(word => ( word.day === Number(day)))
-    console.log(wordlist);
-
-    
-    console.log(a);
-
-
+    const wordList = dummy.words.filter(word => (
+        word.day === Number(day)
+    ));
+    console.log(day);
     return (
+
         <>
-        <h2>Day{day}</h2>
+            <h2>Day {day}</h2>
             <table>
                 <tbody>
-                    {wordlist.map(word => (
+                    {wordList.map(word => (
                         <Word word={word} key={word.id}/>
                     ))}
+
                 </tbody>
             </table>
         </>
-
 
     )
 
